@@ -55,7 +55,7 @@ public class Experience {
     }
 
     public void setEndDate(String endDate) {
-        //added the below lines
+        //added both lines below
         if(endDate.isEmpty() || endDate==null ) {
             endDate = LocalDate.now().format(DateTimeFormatter.ofPattern("MM/dd/yyyy"));
         }
